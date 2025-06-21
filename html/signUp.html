@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuanTV - Sign Up</title>
+    <link rel="stylesheet" href="../css/signUp.css">
+</head>
+<body>
+    <div class="container">
+   
+        <img src="../asset/CuanTV_White.png" alt="CuanTV Logo" class="logo" />
+
+        <div class="form-box">
+        <h2>Create an account</h2>
+        <p class="subtext">Enter your information to access CuanTV</p>
+
+        <form id="signUpForm">
+            <input type="text" id="name" placeholder="name"/>
+            <input type="text" id="email" placeholder="email@domain.com"/>
+            <input type="password" id="password" placeholder="password"/>
+            <input type="number" id="age" placeholder="age" min="0"/>
+            <select id="gender">
+            <option value="" disabled selected>gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            </select>
+
+            <button type="submit" class="submit-btn">Sign Up</button>
+
+            <p class="terms">
+            By clicking continue, you agree to our
+            <a href="#">Terms of Service</a> and
+            <a href="#">Privacy Policy</a>
+            </p>
+
+            <p class="signin-link">
+            Already have an account?
+            <a href="signIn.html">Sign In</a>
+            </p>
+        </form>
+        </div>
+    </div>
+
+  <script src="../js/signUp.js"></script>
+</body>
+</html>
